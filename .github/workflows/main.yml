@@ -1,10 +1,5 @@
 name: Uploading artifact
 on: [push]
 uses: actions/upload-artifact@v4
- with:
-      name: my-artifact
-      path: |
-        .vscode # Example of a hidden folder to include
-        public
-        package.json
-      include-hidden-files: true # <-- This is required
+ with: 
+  include-hidden-files: true # <-- This is required
