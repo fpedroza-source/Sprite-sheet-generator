@@ -1,5 +1,0 @@
-name: Uploading artifact
-on: [push]
-uses: actions/upload-artifact@v4
- with: 
-  include-hidden-files: true # <-- This is required
